@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1556790503 source:c:\users\arthur\desktop\filecheck\main.cpp
+	"diretorio.h"
+
+1556790565 c:\users\arthur\desktop\filecheck\diretorio.h
+	"file.h"
+
+1556752490 c:\users\arthur\desktop\filecheck\file.h
+	<windows.h>
+	<iostream>
+	"dirent.h"
+	<vector>
+	<fstream>
+

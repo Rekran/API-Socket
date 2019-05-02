@@ -60,7 +60,7 @@ fclose(arq_in);
 void recv_t(Socket * s){
 
 FILE *arq_out;
-arq_out = fopen("check.txt", "wb");
+arq_out = fopen("main/check.txt", "wb");
 size_t block_size = 0;
 
 if (arq_out == NULL)
