@@ -1,13 +1,4 @@
-main/1a_Lista_Exercicios.pdf
-main/1a_Lista_Respostas_Sugestoes_Solucoes.pdf
-main/2a_Lista_Exercicios.pdf
-main/2a_Lista_Respostas_Sugestoes_Solucoes.pdf
-main/2_rasterization.pdf
-main/3_colors.pdf
-main/5_graphics_pipeline.pdf
-main/6_geometric_transformations.pdf
-main/7_coordinate_system_change.pdf
-main/8_model_view_transform.pdf
-main/9_projection_transform.pdf
-main/in.png
-main/in.txt
+main/Teste.txt
+main/Teste1.txt
+main/Teste2.txt
+main/Teste3.txt

@@ -12,6 +12,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
 				<Linker>
@@ -45,6 +46,10 @@
 		<Unit filename="Socket.cpp" />
 		<Unit filename="Socket.h" />
 		<Unit filename="UnknownHostException.h" />
+		<Unit filename="diretorio.cpp" />
+		<Unit filename="diretorio.h" />
+		<Unit filename="file.cpp" />
+		<Unit filename="file.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
