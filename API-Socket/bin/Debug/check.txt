@@ -1,4 +1,2 @@
+main/dictionary.txt
 main/Teste.txt
-main/Teste1.txt
-main/Teste2.txt
-main/Teste3.txt

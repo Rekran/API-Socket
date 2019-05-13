@@ -1,4 +1,5 @@
-main/Teste4.txt
-main/Teste5.txt
-main/Teste6.txt
-main/Teste7.txt
+main/dictionary.txt
+main/Teste.txt
+main/Teste2.txt
+main/Teste3.txt
+main/Teste8.txt

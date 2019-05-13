@@ -2,13 +2,10 @@
 
 
 void diretorio::pesistencia(){
+    delete("check.txt");
 	ofstream myfile;
   	myfile.open ("check.txt");
 
-	for(int i = 0;i < this->arquivos.size();i++){
-		file *arquivo = this->arquivos[i];
-		myfile << arquivo->getName()<<"\n";
-	}
   myfile.close();
 }
 

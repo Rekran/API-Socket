@@ -173,58 +173,58 @@
 1557023156 source:c:\users\arthur\desktop\api-socket(atualizado)\file.cpp
 	"file.h"
 
-1557394170 source:d:\api-socket(atualizado 09-05-2019)\diretorio.cpp
+1557537627 source:c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\diretorio.cpp
 	"diretorio.h"
 
-1557074985 d:\api-socket(atualizado 09-05-2019)\diretorio.h
+1557074985 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\diretorio.h
 	"file.h"
 
-1556964129 d:\api-socket(atualizado 09-05-2019)\file.h
+1556964129 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\file.h
 	<windows.h>
 	<iostream>
 	"dirent.h"
 	<vector>
 	<fstream>
 
-1557023156 source:d:\api-socket(atualizado 09-05-2019)\file.cpp
+1557023156 source:c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\file.cpp
 	"file.h"
 
-1556834458 source:d:\api-socket(atualizado 09-05-2019)\inetaddress.cpp
+1556834458 source:c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\inetaddress.cpp
 	"InetAddress.h"
 	<ws2tcpip.h>
 	<iostream>
 
-1556834458 d:\api-socket(atualizado 09-05-2019)\inetaddress.h
+1556834458 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\inetaddress.h
 	<string>
 	<winsock2.h>
 	"UnknownHostException.h"
 
-1556834460 d:\api-socket(atualizado 09-05-2019)\unknownhostexception.h
+1556834460 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\unknownhostexception.h
 	<exception>
 
-1556834458 source:d:\api-socket(atualizado 09-05-2019)\serversocket.cpp
+1556834458 source:c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\serversocket.cpp
 	"ServerSocket.h"
 
-1556834460 d:\api-socket(atualizado 09-05-2019)\serversocket.h
+1556834460 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\serversocket.h
 	"Socket.h"
 	"IOException.h"
 	<ws2tcpip.h>
 	<winsock2.h>
 	<iostream>
 
-1556890416 d:\api-socket(atualizado 09-05-2019)\socket.h
+1556890416 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\socket.h
 	"IOException.h"
 	"InetAddress.h"
 	<stdio.h>
 
-1556834458 d:\api-socket(atualizado 09-05-2019)\ioexception.h
+1556834458 c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\ioexception.h
 	<string>
 	<exception>
 
-1556890465 source:d:\api-socket(atualizado 09-05-2019)\socket.cpp
+1556890465 source:c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\socket.cpp
 	"Socket.h"
 
-1557429279 source:d:\api-socket(atualizado 09-05-2019)\main.cpp
+1557742524 source:c:\users\arthur\desktop\api-socket(atualizado 09-05-2019)\main.cpp
 	<cstdlib>
 	<iostream>
 	"Socket.h"
@@ -234,128 +234,4 @@
 	<stdlib.h>
 	<fstream>
 	"diretorio.h"
-
-1557394170 source:c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\diretorio.cpp
-	"diretorio.h"
-
-1557074985 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\diretorio.h
-	"file.h"
-
-1556964129 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\file.h
-	<windows.h>
-	<iostream>
-	"dirent.h"
-	<vector>
-	<fstream>
-
-1557023156 source:c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\file.cpp
-	"file.h"
-
-1556834458 source:c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\inetaddress.cpp
-	"InetAddress.h"
-	<ws2tcpip.h>
-	<iostream>
-
-1556834458 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\inetaddress.h
-	<string>
-	<winsock2.h>
-	"UnknownHostException.h"
-
-1556834460 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\unknownhostexception.h
-	<exception>
-
-1557492475 source:c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\main.cpp
-	<cstdlib>
-	<iostream>
-	"Socket.h"
-	"ServerSocket.h"
-	"InetAddress.h"
-	<thread>
-	<stdlib.h>
-	<fstream>
-	"diretorio.h"
-
-1556890416 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\socket.h
-	"IOException.h"
-	"InetAddress.h"
-	<stdio.h>
-
-1556834458 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\ioexception.h
-	<string>
-	<exception>
-
-1556834460 c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\serversocket.h
-	"Socket.h"
-	"IOException.h"
-	<ws2tcpip.h>
-	<winsock2.h>
-	<iostream>
-
-1556834458 source:c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\serversocket.cpp
-	"ServerSocket.h"
-
-1556890465 source:c:\users\aluno\desktop\api-socket(atualizado 09-05-2019)\socket.cpp
-	"Socket.h"
-
-1557394170 source:d:\arthur\api-socket(final)\diretorio.cpp
-	"diretorio.h"
-
-1557074985 d:\arthur\api-socket(final)\diretorio.h
-	"file.h"
-
-1556964129 d:\arthur\api-socket(final)\file.h
-	<windows.h>
-	<iostream>
-	"dirent.h"
-	<vector>
-	<fstream>
-
-1557023156 source:d:\arthur\api-socket(final)\file.cpp
-	"file.h"
-
-1556834458 source:d:\arthur\api-socket(final)\inetaddress.cpp
-	"InetAddress.h"
-	<ws2tcpip.h>
-	<iostream>
-
-1556834458 d:\arthur\api-socket(final)\inetaddress.h
-	<string>
-	<winsock2.h>
-	"UnknownHostException.h"
-
-1556834460 d:\arthur\api-socket(final)\unknownhostexception.h
-	<exception>
-
-1557492475 source:d:\arthur\api-socket(final)\main.cpp
-	<cstdlib>
-	<iostream>
-	"Socket.h"
-	"ServerSocket.h"
-	"InetAddress.h"
-	<thread>
-	<stdlib.h>
-	<fstream>
-	"diretorio.h"
-
-1556890416 d:\arthur\api-socket(final)\socket.h
-	"IOException.h"
-	"InetAddress.h"
-	<stdio.h>
-
-1556834458 d:\arthur\api-socket(final)\ioexception.h
-	<string>
-	<exception>
-
-1556834460 d:\arthur\api-socket(final)\serversocket.h
-	"Socket.h"
-	"IOException.h"
-	<ws2tcpip.h>
-	<winsock2.h>
-	<iostream>
-
-1556834458 source:d:\arthur\api-socket(final)\serversocket.cpp
-	"ServerSocket.h"
-
-1556890465 source:d:\arthur\api-socket(final)\socket.cpp
-	"Socket.h"
 
