@@ -235,3 +235,65 @@
 	<fstream>
 	"diretorio.h"
 
+1557023156 source:c:\users\arthur\desktop\api-socket\file.cpp
+	"file.h"
+
+1556964129 c:\users\arthur\desktop\api-socket\file.h
+	<windows.h>
+	<iostream>
+	"dirent.h"
+	<vector>
+	<fstream>
+
+1556834458 source:c:\users\arthur\desktop\api-socket\inetaddress.cpp
+	"InetAddress.h"
+	<ws2tcpip.h>
+	<iostream>
+
+1556834458 c:\users\arthur\desktop\api-socket\inetaddress.h
+	<string>
+	<winsock2.h>
+	"UnknownHostException.h"
+
+1556834460 c:\users\arthur\desktop\api-socket\unknownhostexception.h
+	<exception>
+
+1556834458 source:c:\users\arthur\desktop\api-socket\serversocket.cpp
+	"ServerSocket.h"
+
+1556834460 c:\users\arthur\desktop\api-socket\serversocket.h
+	"Socket.h"
+	"IOException.h"
+	<ws2tcpip.h>
+	<winsock2.h>
+	<iostream>
+
+1556890416 c:\users\arthur\desktop\api-socket\socket.h
+	"IOException.h"
+	"InetAddress.h"
+	<stdio.h>
+
+1556834458 c:\users\arthur\desktop\api-socket\ioexception.h
+	<string>
+	<exception>
+
+1556890465 source:c:\users\arthur\desktop\api-socket\socket.cpp
+	"Socket.h"
+
+1557824188 source:c:\users\arthur\desktop\api-socket\diretorio.cpp
+	"diretorio.h"
+
+1557825588 c:\users\arthur\desktop\api-socket\diretorio.h
+	"file.h"
+
+1557825832 source:c:\users\arthur\desktop\api-socket\main.cpp
+	<cstdlib>
+	<iostream>
+	"Socket.h"
+	"ServerSocket.h"
+	"InetAddress.h"
+	<thread>
+	<stdlib.h>
+	<fstream>
+	"diretorio.h"
+

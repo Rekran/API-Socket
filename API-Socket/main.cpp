@@ -16,11 +16,11 @@ char msg_recv[1024];
 char msg_send[BUFFER_SIZE];
 
 
-void send_t(Socket * s){
-diretorio *main= new diretorio("main");
+void send_t(Socket * s,diretorio * mainD){
+
 size_t block_size = 0;
 
-if(main->atualizar()){
+if(mainD->atualizar()){
             ifstream arquivo("check.txt");
             char filename[24];
             string filename_str;
@@ -67,11 +67,9 @@ if(main->atualizar()){
                     s->send("end",5);
                    }
                    arquivo.close();
-                   s->send("parar",5);
 
-
-
-  }
+}
+ s->send("parar",5);
 cout << "Envio" << endl;
 }
 
@@ -113,6 +111,7 @@ while(true){
                         break;
 
                     cout << block_size << endl;
+
                     fwrite(msg_recv, sizeof(char),block_size, arq_out);
 
 
@@ -138,6 +137,10 @@ cout << "Recebeu" << endl;
 
 void accept_t(Socket * s,ServerSocket *Serve){
 s = Serve->accept();
+
+diretorio *mainD = new diretorio("main");
+
+
 while(true){
 
     system("CLS");
@@ -145,7 +148,7 @@ while(true){
             thread recv_(recv_t,s);
             recv_.join();
             Sleep(200);
-            thread send_(send_t,s);
+            thread send_(send_t,s,mainD);
             send_.join();
         }
          catch (exception& e)
@@ -230,25 +233,23 @@ switch(menu_1){
                 cout << uhe.what() << endl;
                 return 1;
             }
+            diretorio *mainD = new diretorio("main");
 
-while(true){
+                while(true){
+                    system("CLS");
+                    try{
+                        thread send_(send_t,socket,mainD);
+                        send_.join();
+                        Sleep(100);
+                        thread recv_(recv_t,socket);
+                        recv_.join();
+                        }
+                        catch (exception& e)
+                        {
+                            cout << "cliente"<<e.what() << '\n';
+                        }
 
-
-
-        system("CLS");
-        try{
-            thread send_(send_t,socket);
-            send_.join();
-            Sleep(100);
-            thread recv_(recv_t,socket);
-            recv_.join();
-           }
-            catch (exception& e)
-            {
-                cout << "cliente"<<e.what() << '\n';
-            }
-
-}
+                }
     }break;
 
 

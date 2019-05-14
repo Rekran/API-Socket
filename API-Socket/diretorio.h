@@ -10,9 +10,11 @@ class diretorio {
 		bool esta_pasta(file check);
 		void print_diret();
 		void pesistencia();
+		vector<file*>arquivos;
 
 	private:
-		vector<file*>arquivos;
+
+		vector<file*>atualizados;
 		char diretc_name[24];
 
 };

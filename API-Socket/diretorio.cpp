@@ -2,9 +2,14 @@
 
 
 void diretorio::pesistencia(){
-    delete("check.txt");
 	ofstream myfile;
   	myfile.open ("check.txt");
+
+  	for(int i = 0 ;i < this->atualizados.size();i++){
+
+        myfile<<this->atualizados[i]->getName()<<"\n";
+
+        }
 
   myfile.close();
 }
@@ -81,8 +86,10 @@ bool diretorio::atualizar(){
 	DIR *dir;
 	dirent *ent;
 
-    ofstream myfile;
-  	myfile.open ("check.txt");
+	for(int i = 0 ;  i < this->atualizados.size();i++){
+
+        this->atualizados.erase(atualizados.begin() + i);
+	}
 
 	if ((dir = opendir (this->diretc_name)) != NULL) {
 	  while ((ent = readdir (dir)) != NULL ) {
@@ -92,15 +99,17 @@ bool diretorio::atualizar(){
             if(!this->esta((*file_))){
 
                 this->arquivos.push_back(file_);
-                myfile << file_->getName()<<"\n";
-				atualizou = true;
+                this->atualizados.push_back(file_);
+                atualizou = true;
 			}
 		}
 	    i++;
 	  }
 	  closedir (dir);
 	}
-	myfile.close();
+
+	this->pesistencia();
+
 	return atualizou;
 
 }
