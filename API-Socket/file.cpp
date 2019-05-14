@@ -11,23 +11,18 @@ bool file::atualizou(){
     this->atualizar();
 
 	if(this->nova.ano > this->antiga.ano){
-        this->printdata();
 		return true;
 	}
 	else if(this->nova.mes > this->antiga.mes){
-	    this->printdata();
 		return true;
 	}
 	else if(this->nova.dia > this->antiga.dia){
-	    this->printdata();
 		return true;
 	}
 	else if(this->nova.hora > this->antiga.hora){
-	    this->printdata();
 		return true;
 	}
 	else if(this->nova.minuto > this->antiga.minuto){
-	    this->printdata();
 		return true;
 	}
 
@@ -42,9 +37,6 @@ file::file(char * name,char * diretorio){
   	strcat (aux,name);
 
 	strcpy(this->fileName,aux);
-
-
-
 
 }
 

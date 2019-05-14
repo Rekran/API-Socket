@@ -101,12 +101,24 @@ bool diretorio::atualizar(){
                 this->arquivos.push_back(file_);
                 this->atualizados.push_back(file_);
                 atualizou = true;
+
 			}
 		}
 	    i++;
 	  }
 	  closedir (dir);
 	}
+
+
+	for(int i = 0 ;  i < this->arquivos.size();i++){
+
+        if(this->arquivos[i]->atualizou()){
+
+            this->atualizados.push_back(this->arquivos[i]);
+            atualizou = true;
+        }
+	}
+
 
 	this->pesistencia();
 
